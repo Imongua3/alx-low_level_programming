@@ -3,7 +3,7 @@
 #include <stdlib.h>
 #include <time.h>
 /**
- * main: Entry point
+ * main - Entry point.
  * Description: print if a number is positive or nagetive.
  * Return: 0
  */
@@ -18,7 +18,7 @@ int main(void)
 	printf("%d is positive\n", n);
 	}
 	else if (n == 0)
-	{	
+	{
 	printf("%d is zero\n", n);
 	}
 	else if (n < 0)
