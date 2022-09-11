@@ -8,25 +8,18 @@
 int main(void)
 {
 	int bc = 'a';
-	while (bc <= 'z')
 
+	for (bc = 'a'; bc <= 'z'; bc++)
 	{
-	if (bc == 'e' || lw == 'q')
+	if (bc != 'e'&& bc = 'q')
 	{
-	bc += 1;
+	putchar(bc);
 	}
-
 	else
 	{
 	putchar(bc);
-
-	bc += 1;
-
 	}
-
 	}
-
 	putchar('\n');
-
 	return (0);
 }

@@ -1,4 +1,5 @@
-include <stdio.h>
+#include <stdio.h>
+#include <usitd.h>
 /**
  * main - Prints 3 combination of numbers
  * Return: Always (Success)
@@ -24,7 +25,9 @@ int main(void)
 	putchar(' ')
 	}
 	}
+	}
+	}
+	}
 	putchar('\n');
 	return (0);
-
 }
