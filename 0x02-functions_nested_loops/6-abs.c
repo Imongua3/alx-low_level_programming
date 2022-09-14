@@ -5,7 +5,7 @@
  *  Description: prints the absolute value of an integer
  *  Return: int
  **/
-nt _abs(int n)
+int _abs(int n)
 {
 	if (n > 0)
 
