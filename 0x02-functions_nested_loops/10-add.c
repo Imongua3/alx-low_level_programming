@@ -2,15 +2,15 @@
 
 /*
  *  add - adds two integers
- *  @n1: integer 1
- *  @n2: integer 2
+ *  @n1: integer x
+ *  @n2: integer y
  *  Description: give two integers, returns sum
  *  Return: su
  */
-int add(int n1, int n2)
+int add(int x, int y)
 {
 	int sum;
 
-	sum = n1 + n2;
+	sum = x + y;
 	return (sum);
 }
