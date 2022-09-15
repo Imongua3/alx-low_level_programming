@@ -14,7 +14,7 @@ int _isdigit(int c);
 	{
 		/* testing condition for int c*/
 		if (c == i)
-		{	
+		{
 		return (1);
 		}
 	}

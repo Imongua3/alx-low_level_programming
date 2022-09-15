@@ -2,12 +2,8 @@
 
 /**
  * print_triangle - prints a triangle line with hashtags
- *
  * @size: an int given by main
- *
  * Same as my 7 print diagonal. check that file and its comments
- *
- * Description: Uses headers to link and a nested loops to achieve goal
  * Return: void. no return.
  */
 void print_triangle(int size)
