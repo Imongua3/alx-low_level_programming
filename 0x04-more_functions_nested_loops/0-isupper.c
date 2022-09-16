@@ -5,7 +5,7 @@
  * @c: the integer value it receives
  * Return: 1 if true. 0 if false.
  */
-int _isupet numberier(int c)
+int _isupper(int c)
 {
 	if (c >= 65 && c <= 90)
 	{

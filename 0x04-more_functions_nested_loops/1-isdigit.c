@@ -8,15 +8,10 @@
  */
 int _isdigit(int c);
 {
-	int i = '0';
-
-	for (i = '0'; i <= '10'; i++)
-	{
-		/* testing condition for int c*/
-		if (c == i)
-		{
+int _isdigit(int c)
+{
+	if (c >= 48 && c <= 57)
 		return (1);
-		}
-	}
-	return (0);
+	else
+		return (0);
 }
