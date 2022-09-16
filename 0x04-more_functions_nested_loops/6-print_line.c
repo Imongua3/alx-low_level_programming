@@ -13,7 +13,7 @@ void print_line(int n)
 {
 	int y;
 
-	if(n>0)
+	if (n > 0)
 	{
 		for (y = 0; y <= n, y++;)
 		{

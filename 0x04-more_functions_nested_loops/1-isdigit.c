@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * isdigid - Entry point
+ * _isdigit - Entry point
  * Checking if a character is a digid
  * @c:the integer value it receive
  *  Return: 1 if true. 0 if false.

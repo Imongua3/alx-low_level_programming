@@ -4,13 +4,12 @@
  * mul - multiply two numbers
  * Description: Multiplying two integers
  * @a: an int given by the main function
- * Return 0
+ * Return: mul
  */
-int mul(int a, int b)
+int mul(int a, int b);
 {
+	int mul = (a * b)
 
-	int mul = a * b;
-
-	-putchar(mul
+	_putchar(mul);
 		return (mul);
 }
