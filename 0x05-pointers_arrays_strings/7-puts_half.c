@@ -2,7 +2,7 @@
 
 /**
  * puts_half - Prints half array
- * @str: string 
+ * @str: string
  */
 void puts_half(char *str)
 {
