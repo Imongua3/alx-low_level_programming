@@ -1,11 +1,8 @@
 #include "main.h"
 
 /**
-
- * puts_half - Prints half of a string.
-
- * @str: The string to be printed.
-
+ * puts_half - Prints half array
+ * @str: string 
  */
 void puts_half(char *str)
 {
