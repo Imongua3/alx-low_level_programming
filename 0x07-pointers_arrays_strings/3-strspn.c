@@ -6,22 +6,24 @@
  * @accept:character in str1 that matches one of the characters in str2
  *Return: string s that matches any character specified in accept
  **/
-char *_strpbrk(char *s, char *accept)
+unsigned int _strspn(char *s, char *accept)
 {
-	int j;
+	int i, j, cmpt = 0;
 
-	while (*s != '\0')
+	for (i = 0; s[i] >= '\0'; i++)
 	{
-		j = 0;
-		while (accept[j] != '\0')
+		for (j = 0; accept[j] > '\0'; j++)
 		{
-			if (*s == accept[j])
+			if (s[i] == accept[j])
 			{
-				return (s);
+				cmpt++;
+				break;
 			}
-			j++;
 		}
-		s++;
+		if (accept[j] == '\0')
+		{
+			break;
+		}
 	}
-	return (0);
+	return (cmpt);
 }
