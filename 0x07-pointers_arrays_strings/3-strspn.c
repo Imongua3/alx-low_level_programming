@@ -1,10 +1,10 @@
-#include "main.h"
+#include "main."
 
 /**
- * _strpbrk - matches any character specified
- * @s: This is the C string to be scanned.
- * @accept:character in str1 that matches one of the characters in str2
- *Return: string s that matches any character specified in accept
+ * _strspn - return the number of occurent of a string
+ * @s: string to check
+ * @accept: character to match
+ * Return: int
  **/
 unsigned int _strspn(char *s, char *accept)
 {
